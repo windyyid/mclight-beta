@@ -618,6 +618,7 @@ permen.question('[\x1b[1m\x1b[32mroot@mclight:~#\x1b[0m] » \n', (input) => {
 
   if (command === 'help') {
     console.log(`
+[=========================================]
 ╔ methods      » Show List Avaible Methods
 ╠ track-ip     » Track Ip Address
 ╠ subdo-finder » Find Subdomain
@@ -639,6 +640,7 @@ permen.question('[\x1b[1m\x1b[32mroot@mclight:~#\x1b[0m] » \n', (input) => {
 ╠ ai           » Are This Even Work?
 ╠ credits      » <3
 ╚ clear        » Clear Terminal
+[=========================================]
 `);
     sigma();
   } else if (command === 'methods') {
