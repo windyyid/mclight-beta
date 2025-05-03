@@ -596,10 +596,11 @@ ${kiddies.data}
 }
 // [========================================] //
 async function sigma() {
-const getNews = await fetch(`https://raw.githubusercontent.com/windyyid/windyyid/refs/heads/main/news.txt`)
+const getNews = await fetch(`https://gitlab.com/windyyid-group/mclight/-/raw/main/news.txt`)
 const latestNews = await getNews.text();
 const creatorCredits = `
 Created And Coded Full By PermenMD
+Recode By StarX And MCLIGHT
 
 <3 Thx To:
 - Allah SWT الله
