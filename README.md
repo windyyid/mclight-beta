@@ -16,8 +16,8 @@ windycantik
 
 🔔 Make Sure You Have the Following Installed:
 
-- Node.js (v17 Or Above) 🌱
-- npm (Node Package Manager) 📦
+- Node.js ( v17 Or Above ) 🎮
+- npm ( Node Package Manager ) 📦
 
 ## Command ⚙
 
@@ -40,4 +40,4 @@ windycantik
    node index
    ```
    
-## ❤ BIG THANKS TO PERMENMD & STARX ❤
+# ❤ BIG THANKS TO PERMENMD & STARX ❤
