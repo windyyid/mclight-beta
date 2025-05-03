@@ -14,7 +14,7 @@ windycantik
 
 ## Setup 🛠️
 
-🔔 Make Sure You Have the Following Installed:
+🔔 Make Sure You Have The Following Installed:
 
 - Node.js ( v17 Or Above ) 🎮
 - npm ( Node Package Manager ) 📦
