@@ -604,7 +604,8 @@ Created And Coded Full By PermenMD
 <3 Thx To:
 - Allah SWT الله
 - ChatGPT ( Fixing Error )
-- Claude ( Fixing Error + Creating Another Methods)
+- Claude ( Fixing Error + Creating Another Methods )
+- Cursor ( Visual Studio But Different + With AI )
 - IrfanNotSepuh ( Gatau Ngapain )
 - Windy ( Recreating PermenMD/StarX To MCLIGHT )
 - My Family
