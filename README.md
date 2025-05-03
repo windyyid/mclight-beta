@@ -8,6 +8,7 @@ windycantik
 - 📦 File Size: >1mb
 - 📡 Free Proxy http/https: https://gitlab.com/windyyid-group/mclight/-/raw/main/proxy.txt
 - 📡 Free User Agents: https://gitlab.com/windyyid-group/mclight/-/raw/main/useragents.txt
+- 📡 Free Proxy socks5: https://gitlab.com/windyyid-group/mclight/-/raw/main/socks5.txt
 
 ## Setup 🛠️
 
