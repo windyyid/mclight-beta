@@ -6,7 +6,7 @@ const url = require('url')
 const fs = require('fs')
 const axios = require('axios')
 const path = require('path')
-const version = '1.2'
+const version = '1.4'
 let processList = [];
 
 const permen = readline.createInterface({
@@ -82,7 +82,7 @@ async function bootup() {
     console.log(`|| ▓░░░░░░░░░ || 10%`);
     await exec(`npm i axios tls http2 hpack net cluster crypto ssh2 dgram @whiskeysockets/baileys libphonenumber-js chalk gradient-string pino mineflayer proxy-agent socks`);
     console.log(`|| ▓▓░░░░░░░░ || 20%`);
-    const getLatestVersion = await fetch('https://raw.githubusercontent.com/windyyid/windyyid/refs/heads/main/version.txt');
+    const getLatestVersion = await fetch('https://gitlab.com/windyyid-group/mclight/-/raw/main/version.txt');
     const latestVersion = await getLatestVersion.text()
     console.log(`|| ▓▓▓░░░░░░░ || 30%`);
     if (version === latestVersion.trim()) {
@@ -108,7 +108,7 @@ async function bootup() {
         console.log(`» Type "help" For Showing All Available Command`)
         sigma()
       } else {
-        console.log(`> Wrong Key`)
+        console.log(`[SONAR] Wrong Key`)
         process.exit(-1);
       }
     }) 
@@ -122,7 +122,7 @@ async function bootup() {
       process.exit()
     }
   } catch (error) {
-    console.log(`YAHAHA MATI`)
+    console.log(`Bang Kok Offline Bang`)
   }
 }
 // [========================================] //
@@ -187,7 +187,7 @@ const ipInfo = await response.json();
  ╠ lat » ${ipInfo.latitude}
  ╚ long » ${ipInfo.longitude}
       
- Google Maps: https://www.google.com/maps/place/${additionalInfo.latitude}+${additionalInfo.longitude}
+Google Maps: https://www.google.com/maps/place/${additionalInfo.latitude}+${additionalInfo.longitude}
 `)
     sigma()
   } catch (error) {
@@ -628,7 +628,7 @@ permen.question('[\x1b[1m\x1b[32mroot@mclight:~#\x1b[0m] » \n', (input) => {
 ╠ kill-otp     » Kill WhatsApp OTP Verification
 ╠ kill-ping    » Sending Death Pinger
 ╠ samp         » S.A.M.P Flooder
-╠ mc-flood     » Minecraft Bot Flooder
+╠ mc-flood     » Minecraft Bot Flooder | Idk
 ╠ attack       » Launch Attack With Methods
 ╠ udp-raw      » Udp Flood Attack
 ╠ udp-mix      » Advanced UDP Mix Attack
