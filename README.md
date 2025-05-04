@@ -1,4 +1,4 @@
-# ⚡ BETA VERSION ⚡
+# ⚡ VERSION 1.4 ⚡
 
 ## ⚡ MCLIGHT / PERMENMD / STARX ⚡
 🚀 PermenMD Recode With StarX!! - 🚀 Free And No Enc <3
